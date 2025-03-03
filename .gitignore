@@ -1,0 +1,22 @@
+# Python & Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+
+# Virtual Environment
+venv/
+env/
+
+# Django Secrets & Settings
+*.log
+*.env
+.env
+config/settings_local.py  # If you have custom local settings
+
+# IDE & OS Specific
+.vscode/
+*.swp
+.DS_Store
